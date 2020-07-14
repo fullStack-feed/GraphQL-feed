@@ -9,7 +9,8 @@ interface Listing {
   numOfBaths: number;
   rating: number;
 }
-export const listings: Listing [] = [
+
+export const listings: Listing[] = [
   {
     id: '001',
     title: 'Clean and fully furnished apartment. 5 min away from CN Tower',
@@ -46,4 +47,4 @@ export const listings: Listing [] = [
     numOfBaths: 2,
     rating: 3,
   },
-]
+];
